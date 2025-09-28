@@ -1,4 +1,3 @@
-
 ## AuraDB Graph Database with Python API
 
 This project demonstrates how to use [AuraDB](https://neo4j.com/cloud/aura/)—a fully managed graph database service—with a Python API. The goal is to show how graph databases can be integrated into modern applications for advanced data modeling and querying.
