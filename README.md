@@ -11,3 +11,9 @@ This project demonstrates how to use [AuraDB](https://neo4j.com/cloud/aura/)—a
 - **AuraDB (Neo4j Cloud)**: Managed graph database
 - **Python**: API development
 - **neo4j Python Driver**: Connects Python to AuraDB
+
+
+### Steps
+
+- If not enabled, enable running scripts in shell with the following command: **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force**
+- If on windows run: 
