@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 
-from app import roads
+from app import roads, nodes
 
 load_dotenv()
 
@@ -19,6 +19,7 @@ def health():
     return {"ok": True}
 
 app.include_router(roads.router)
+app.include_router(nodes.router)    
 
 app.add_middleware(
     CORSMiddleware,
