@@ -106,8 +106,8 @@ def update_road(payload: dict, session: Session = Depends(get_session)):
 # Delete a road
 @router.delete("")
 def delete_road(
-    frm: int,
-    to: int,
+    frm: int = Query(alias="from"),
+    to: int = Query(...),
     session: Session = Depends(get_session),
 ):
     session.execute_write(
