@@ -16,4 +16,5 @@ This project demonstrates how to use [AuraDB](https://neo4j.com/cloud/aura/)—a
 ### Steps
 
 - If not enabled, enable running scripts in shell with the following command: **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force**
-- If on windows run: 
+- If on windows run: .\run.ps1 on Max run: .\run.sh
+- It'll install dependencies and run the server for the API
